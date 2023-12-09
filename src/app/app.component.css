@@ -1,3 +1,10 @@
-.page {
-   height: 710px;
+h1 {
+   text-align: center;
 }
+.page {
+   height: 470px;
+   display: flex;
+   justify-content: center;
+   width: 100%;
+}
+
