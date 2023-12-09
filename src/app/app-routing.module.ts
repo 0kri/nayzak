@@ -6,6 +6,7 @@ import { OrdersComponent } from './layout/components/orders/orders.component';
 import { AddressesComponent } from './layout/components/addresses/addresses.component';
 import { WishlistComponent } from './layout/components/wishlist/wishlist.component';
 import { UserProfileComponent } from './layout/user-profile/user-profile.component';
+import { AccountDetailsComponent } from './layout/components/account-details/account-details.component';
 
 const routes: Routes = [
   {
@@ -27,6 +28,11 @@ const routes: Routes = [
         path: 'account-dashboard',
         component: AccountDashboardComponent,
         title: 'Account Dashboard',
+      },
+      {
+        path: 'account-details',
+        component: AccountDetailsComponent,
+        title: 'Account Details',
       },
       {
         path: 'orders',

@@ -12,6 +12,8 @@ import { OrdersComponent } from './layout/components/orders/orders.component';
 import { AddressesComponent } from './layout/components/addresses/addresses.component';
 import { WishlistComponent } from './layout/components/wishlist/wishlist.component';
 import { UserProfileComponent } from './layout/user-profile/user-profile.component';
+import { AccountDetailsComponent } from './layout/components/account-details/account-details.component';
+import { OrderCardComponent } from './layout/components/orders/order-card/order-card.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { UserProfileComponent } from './layout/user-profile/user-profile.compone
     OrdersComponent,
     AddressesComponent,
     WishlistComponent,
-    UserProfileComponent
+    UserProfileComponent,
+    AccountDetailsComponent,
+    OrderCardComponent
   ],
   imports: [
     BrowserModule,
