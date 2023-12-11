@@ -1,7 +1,9 @@
-<div class="order">
-    <p class="order-id">{{ orderData.id }}</p>
-    <p class="order-date">{{ orderData.date }}</p>
-    <p class="order-status">{{ orderData.status }}</p>
-    <p class="order-price">{{ orderData.price }}</p>
-    <button class="order-btn">track</button>
+<div>
+    <ul class='order'>
+        <li class="order-id">#{{ orderData.id }}</li>
+        <li class="order-date">{{ orderData.date }}</li>
+        <li class="order-status">{{ orderData.status }}</li>
+        <li class="order-price">${{ orderData.price }}</li>
+        <button class="order-btn">track</button>
+    </ul>
 </div>

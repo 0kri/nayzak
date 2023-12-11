@@ -1,1 +1,5 @@
-<p>addresses works!</p>
+<div class="addresses-box">
+    <div class="addresses-card" *ngFor="let address of addresses">
+        <app-address-card class="" [addressData]="address"></app-address-card>
+    </div>    
+</div>

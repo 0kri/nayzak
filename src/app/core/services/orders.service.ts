@@ -11,19 +11,19 @@ export class OrdersService {
       id: 1,
       date: 'july 24, 2022',
       status: 'Pending',
-      price: 100
+      price: "100.00"
     },
     {
       id: 2,
       date: 'December 28, 2000',
       status: 'Delivered',
-      price: 12
+      price: "12.00"
     },
     {
       id: 3,
       date: 'October 04, 2008',
       status: 'Delivered',
-      price: 8
+      price: "8.00"
     },
 
   ]

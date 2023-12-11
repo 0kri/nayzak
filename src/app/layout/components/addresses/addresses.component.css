@@ -1,0 +1,9 @@
+.addresses-box {
+    display: flex;
+    flex-direction: row;
+}
+.addresses-card {
+    padding: 25px;
+    border: 2px solid #F7F7F7;
+    margin: 5px;
+}

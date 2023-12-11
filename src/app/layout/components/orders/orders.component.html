@@ -1,7 +1,8 @@
-
-    <div class="order" *ngFor="let order of orders">
-        <a routerLink="/orders/{{order.id}}" class="text-decoration-none">
+<div class="order-box" >
+    <div class="" *ngFor="let order of orders">
+        <div class="order-card">
             <app-order-card [orderData]="order"></app-order-card>
-        </a>
+        </div>
     </div>
+</div>
 
