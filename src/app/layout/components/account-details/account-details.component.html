@@ -1,1 +1,24 @@
-<p>account-details works!</p>
+<form [formGroup]="accountDetailForm">
+    <label for="firstName">First name *</label>
+    <input type="text" name="firstName" formControlName="firstName" placeholder="First name">
+
+    <label for="lastName">Last name *</label>
+    <input type="text" name="lastName" formControlName="lastName" placeholder="Last name">
+
+    <label for="displayName">Display name *</label>
+    <input type="text" name="displayName" formControlName="displayName" placeholder="Display name">
+
+    <label for="email">Email address *</label>
+    <input type="email" name="email" formControlName="email" placeholder="Email address">
+
+    <h5>Password change</h5>
+
+    <label for="oldPassword">Old password *</label>
+    <input type="password" name="oldPassword" formControlName="oldPassword" placeholder="Old password">
+
+    <label for="newPassword">New password *</label>
+    <input type="password" name="newPassword" formControlName="newPassword" placeholder="New password">
+
+    <label for="repeatNewPassword">Repeat new password *</label>
+    <input type="password" name="repeatNewPassword" formControlName="repeatNewPassword" placeholder="Repeat new password">
+</form>

@@ -15,6 +15,7 @@ import { UserProfileComponent } from './layout/user-profile/user-profile.compone
 import { AccountDetailsComponent } from './layout/components/account-details/account-details.component';
 import { OrderCardComponent } from './layout/components/orders/order-card/order-card.component';
 import { AddressCardComponent } from './layout/components/addresses/address-card/address-card.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { AddressCardComponent } from './layout/components/addresses/address-card
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
