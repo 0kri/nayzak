@@ -1,1 +1,7 @@
-<p>wishlist works!</p>
+<div class="wishlist-box" >
+    <div class="" *ngFor="let item of wishlist">
+        <div class="wishlist-card">
+            <app-wishlist-card [wishlistData]="item"></app-wishlist-card>
+        </div>
+    </div>
+</div>

@@ -11,6 +11,7 @@ import { OrdersService } from '../../../core/services/orders.service';
 export class OrdersComponent {
 
   orders: OrdersInterface[] = [];
+wishlist: any;
 
   constructor(
     public ordersService: OrdersService 

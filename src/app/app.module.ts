@@ -16,6 +16,7 @@ import { AccountDetailsComponent } from './layout/components/account-details/acc
 import { OrderCardComponent } from './layout/components/orders/order-card/order-card.component';
 import { AddressCardComponent } from './layout/components/addresses/address-card/address-card.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { WishlistCardComponent } from './layout/components/wishlist/wishlist-card/wishlist-card.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     UserProfileComponent,
     AccountDetailsComponent,
     OrderCardComponent,
-    AddressCardComponent
+    AddressCardComponent,
+    WishlistCardComponent
   ],
   imports: [
     BrowserModule,
