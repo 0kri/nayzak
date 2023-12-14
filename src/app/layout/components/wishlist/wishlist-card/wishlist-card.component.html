@@ -6,12 +6,12 @@
         <ul class="wishlit-description">
             <li><h5>{{ wishlistData.description.title}}</h5></li>
             <ul class="size-color">
-                <li>{{ wishlistData.description.size }}</li>
-                <li>{{ wishlistData.description.color }}</li>
+                <li>Size: {{ wishlistData.description.size }},</li>
+                <li>Color: {{ wishlistData.description.color }}</li>
             </ul>
             <li><button class="">Remove</button></li>
         </ul>
-        <li class="wishlist-price">{{ wishlistData.price }}</li>
+        <li class="wishlist-price">${{ wishlistData.price }}</li>
         <button class="wishlist-btn">Select options</button>
     </ul>
 </div>
